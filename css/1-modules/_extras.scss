@@ -1,0 +1,17 @@
+div[class^="col"] {
+    padding: 1em;
+}
+
+body {
+    background-color: $teal;
+    text-align: center;
+}
+
+h1 { font-size: 3em;}
+h2 {font-size: 2em;}
+
+@media (max-width: 480px) {
+    div[class^="col"] {
+        width: 100%;
+    }
+}
